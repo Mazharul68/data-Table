@@ -14,7 +14,7 @@ div.dataTables_wrapper div.dataTables_info {
 	text-align: center;
 	position: relative;
 	display: flex;
-	justify-content:space-around;
+	justify-content:center;
 	align-items: center;
 }
 div.dataTables_wrapper div.dataTables_filter label {
