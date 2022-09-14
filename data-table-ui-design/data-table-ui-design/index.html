@@ -7,32 +7,12 @@
     <link rel="stylesheet" href="dataTable/css/themes-base-jquery-ui.css">
     <link rel="stylesheet" href="dataTable/css/dataTables.jqueryud.min.css">
     <link rel="stylesheet" href="dataTable/css/dataTables.button.css">
+    <link rel="stylesheet" href="dataTable/css/syle.css">
     <script src="dataTable/js/jquery.3.5.1.min.js"></script>
     <title>Data Table ui</title>
 </head>
-<style>
-    div.dt-buttons {
-	position: relative;
-	float: left;
-	text-align: center;
-	left: 50%;
-    transform: translate(-50%);
-}
-table.dataTable {
-	border-collapse: separate;
-	border-spacing: 0;
-	/* text-align: center; */
-	/* background: red; */
-	box-shadow: 0px 2px 3px 1px;
-}
-table.dataTable.stripe > tbody > tr > *, 
-table.dataTable.display > tbody > tr > * {
-	box-shadow: inset 0 0 0 9999px rgba(0, 0, 0, 0.023);
-	border: 1px solid #e1e1e1;
-}
-</style>
 <body>
-    <table id="example" class="display show_entries dfe" style="width:100%">
+    <table id="example" class="display export_table" style="width:100%">
         <thead>
             <tr>
                 <th>Name</th>
@@ -280,7 +260,7 @@ table.dataTable.display > tbody > tr > * {
         keys: true
     } );
 } );
-</script> -->
+    </script> -->
 
     <script src="dataTable/js/dataTables1.min.js"></script>
     <script src="dataTable/js/dataTables2.min.js"></script>
